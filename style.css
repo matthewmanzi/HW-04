@@ -1,0 +1,76 @@
+
+
+.wrapper {
+    box-sizing: border-box;
+    background: rgb(9,1,237);
+    background: radial-gradient(circle, rgba(9,1,237,0.8267682072829132) 0%, rgba(204,70,53,0.6502976190476191) 0%, rgba(101,61,172,1) 0%, rgba(237,19,159,0.8071603641456583) 0%, rgba(2,0,148,0.7595413165266106) 15%, rgba(0,208,191,0.946987951807229) 23%, rgba(255,0,46,1) 24%, rgba(9,1,241,1) 24%, rgba(9,0,246,0.7175245098039216) 28%, rgba(9,1,237,1) 42%, rgba(19,153,190,1) 51%, rgba(9,2,230,0.4542191876750701) 52%, rgba(19,190,174,0.7959558823529411) 62%, rgba(19,116,206,1) 68%, rgba(20,53,233,0.7959558823529411) 73%, rgba(143,11,155,1) 77%, rgba(21,0,255,0.5578606442577031) 80%, rgba(96,8,152,1) 85%, rgba(78,28,167,1) 93%, rgba(167,41,39,0.6811099439775911) 96%, rgba(0,0,0,1) 100%, rgba(217,135,57,1) 100%, rgba(11,2,221,0.3897934173669467) 100%, rgba(100,96,198,1) 100%, rgba(9,9,100,1) 100%);
+    border-style: outset;
+    border-color: black;
+    border-width: 5pt;
+}
+
+.headerBox {
+    box-sizing: border-box;
+    background-color: hsla(120, 50%, 50%, 0.5);
+    text-align: center;
+    border-style: double;
+    border-color: black;
+    border-width: 3pt;
+    margin:  auto 0;
+}
+
+.header {
+    box-sizing: border-box;
+    color: black;
+    font-size: 25pt;
+    font-weight: 600;
+}
+
+.subHeader {
+    box-sizing: border-box;
+    color: black;
+    text-align: center;
+    font-size: 14pt;
+    font-weight: 400;
+}
+
+.spacer {
+    display: inline-flexbox;
+    background-color: hsla(246, 100%, 10%, 0.699);
+    height: 1%;
+    margin: auto 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10pt;
+    margin-top: 10pt;
+}
+
+.spacer2 {
+    display: block;
+    background-color: hsla(246, 100%, 10%, 0.699);
+    border-style: solid;
+    border-width: 2pt;
+    border-color: black;
+    margin-bottom: 10pt;
+    margin-top: 5%;
+    width: 75%;
+    margin: auto;
+}
+
+#questionBox {
+    box-sizing: border-box;
+    background-color: orange;
+    text-align: center;
+    border-style: ridge;
+    border-color: rgb(76, 76, 255);
+    border-width: 5pt;
+    text-align: center;
+}
+
+.buttonText {
+    font-weight: 1000;
+    font-size: 14pt;
+    color: black;
+    width: 70%;
+    margin: auto;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html lang="en">
+
+
+<head>
+
+    <title>QUIZ</title>
+
+        <meta charset="UTF-8"/>
+        
+        <!--bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" crossorigin="anonymous">
+
+        <!--css stylesheet-->
+        <link rel="stylesheet" href="style.css">
+    
+        <!--Responsive viewport-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+    
+</head>
+
+
+
+<body>
+
+    <div class="container-fluid wrapper">               <!--Page container-->
+        
+        <div class="spacer"></div>
+
+        <div class="headerBox">
+            <p class="header">THE QUIZ THING</p>
+            <div class="spacer2"></div>
+            <p class="subHeader">An Idle Hands Deployment</p>
+        </div>
+
+        <div class="spacer"></div>
+        
+            <div class="row">                           <!--Responsive grid-->
+                
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="col-sm-6 d-flex justify-content-center"> 
+                            <!--Scorecard-->
+                            <div id="scoreboard" class="badge badge-warning">Score: <span id="score"></span></div>
+                        </div>
+
+                        <div class="col-sm-6 d-flex justify-content-center">
+                            <div id="clock" class="badge badge-warning">Timer: <span id="timer"></span></div>
+                        </div>                              <!--close timer and score row-->
+                        
+                    </div>
+
+                    <div class="row">  <!--This row holds the questions -->
+                        <div class="col-sm-12">            
+                            <form id="questionBox" class="buttonText">
+                                <label for="questionText"></label>
+                            </form>                     
+                        </div>
+                    </div>                         <!--close question row-->
+
+                    <div class="row d-flex justify-content-center spacer2">
+                    <!--The following four sections contain the answer buttons. These change with each iteration of the inquisitor function-->
+                    
+                        <div class="col-sm-12">
+                            
+                            <div class="spacer2">              <!--answer 1 row-->
+                                
+                                <button type="button" class="btn btn-success btn-lg btn-block buttonText" id="response1"></button>
+                            
+                            </div>                        
+
+
+
+                            <div class="spacer2">             <!--answer 2 row-->
+                                
+                                <button type="button" class="btn btn-success btn-lg btn-block buttonText" id="response2"></button>
+
+                            </div>                             
+
+
+
+                            <div class="spacer2">              <!--answer 3 row-->
+                                
+                                <button type="button" class="btn btn-success btn-lg btn-block buttonText" id="response3"></button>
+
+                            </div> 
+
+
+
+                            <div class="spacer2">             <!--answer 4 row-->
+                                
+                                <button type="button" class="btn btn-success btn-lg btn-block buttonText" id="response4"></button>
+
+                            </div> 
+
+
+                        </div> <!--close the main col 12-->
+
+
+                    </div> <!--close row-->
+                
+                </div> <!--close bigger col 12-->
+    
+        </div> <!--close container--> 
+
+        <!--the magic-->
+        <script src="./questions.js"></script>
+
+</body>
+
+</html>
